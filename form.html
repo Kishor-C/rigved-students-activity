@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Activity</title>
+</head>
+<body>
+    <h1 style="color: olive;">Registration Form!</h1>
+    <form action="#" method="post">
+      <div>
+        <table>
+          <tr>
+            <td align="center">First Name:</td>
+            <td align="left"><input type="text" name="fn" /></td>
+          </tr>
+
+          <tr>
+            <td align="center">Last Name:</td>
+            <td align="left"><input type="text" name="ln" /></td>
+          </tr>
+
+          <tr>
+            <td align="center">Password:</td>
+            <td align="left"><input type="password" name="pass" /></td>
+          </tr>
+
+          <tr>
+            <td align="center">Email:</td>
+            <td align="left"><input type="text" name="email" /></td>
+          </tr>
+
+          <tr>
+            <td align="center">Gender:</td>
+            <td align="left"><input type="radio" name="gender" value="M" /> Male  &nbsp; &nbsp; &nbsp;  <input type="radio" name="gender" value="F" /> Female  </td>
+          </tr>
+
+          <tr>
+            <td align="center">Skills:</td>
+            <td align="left"><input type="checkbox" name="skills" /> Javascript &nbsp; <input type="checkbox" name="skills" /> HTML  &nbsp; <input type="checkbox" name="skills" /> CSS  &nbsp;</td>
+          </tr>
+
+          <tr>
+              <td align="center">Qualification: </td>
+              <td><select name = "qualification">
+
+                    <option>Select</option>
+
+                    <optgroup label = "Graduation" >
+                        <option value = "BTech">B.Tech</option>
+                        <option value = "BCOM">BCom</option>
+                        <option value = "BSC">BSc</option>
+                        <option value = "BCA">BCA</option>
+                    </optgroup>
+                
+                   <optgroup label = "Post Graduation">
+                        <option value = "MCA">MCA</option>
+                        <option value = "MBA">MBA</option>
+                        <option value = "MTech">M.Tech</option>
+                   </optgroup>
+
+                </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td align="center">Address:</td>
+            <td><textarea name="address" rows="5" cols="25"></textarea></td>
+          </tr>
+
+
+          <tr>  
+            <td align="center">Picture</td>
+            <td><input type="file" name="img" ></td>
+          </tr>
+
+<tr>
+    <td> &nbsp;</td>
+</tr>
+          <tr>
+              <td align="right"><input type="submit" value="Submit"> &nbsp; &nbsp;&nbsp;<input type="reset" value="Clear"></td>
+          </tr>
+       
+            
+          
+          
+        </table>
+      </div>
+    </form>   
+
+    
+</body>
+</html>
