@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Registration from</h1>
+    <form action="#" method="post">
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="user"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="pass"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><input type="radio" name="gender" value="M">Male
+                    <input type="radio" name="gender" value="F">Female</td>
+            </tr>
+            <tr>
+                <td>Qualification:</td>
+                <td>
+                    <select name="qualification">
+                        <optgroup label="Graduation">
+                            <option value="BTech">B.Tech</option>
+                            <option value="BCOM">BCom</option>
+                            <option value="BSC">BSc</option>
+                            <option value="BCA">BCA</option>
+                        </optgroup>
+                        <optgroup label="Post Graduation">
+                            <option value="MCA">MCA</option>
+                            <option value="MBA">MBA</option>
+                            <option value="MTech">M.Tech</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><textarea name="address" cols="25" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>Picture:</td>
+                <td><input type="file" name="pic"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Register"></td>
+                <td><input type="reset" name="Reset"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
