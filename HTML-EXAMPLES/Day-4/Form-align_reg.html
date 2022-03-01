@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+
+    <style>
+      table,th,td{
+        padding: 25px;
+        
+      }
+
+      table{
+        border: 5px solid black;
+        margin-left: 35%;
+      }
+
+      h1{
+        text-align: center;
+      }
+
+      
+    </style>
+  </head>
+
+  <body>
+    <form action="#" method="post" name="frmLogin">
+      <table>
+        <h1>Registration Form:</h1>
+        <tr>
+          <td align="right">Name:</td>
+          <td><input type="text" name="user"/></td>
+        </tr>
+        <tr>
+          <td align="right">Password:</td>
+          <td><input type="password" name="password"/></td>
+        </tr>
+
+        <tr>
+          <td align="right">Gender:</td>
+          <td><input type="radio" name="gender" value="M"/>MALE 
+              <input type="radio" name="gender" value="F"/>FEMALE
+          </td>
+        </tr>
+
+        <tr>
+          <td align="right">Skills:</td>
+          <td><input type="checkbox" name="skills" value="JS"/>JavaScript 
+              <input type="checkbox" name="skills" value="HTML"/>HTML
+              <input type="checkbox" name="skills" value="ANGULAR"/>ANGULAR
+          </td>
+        </tr>
+
+        <tr>
+          <td align="right">Qualification:</td>
+              <td>
+                <select name="qualification">
+                <option>Select</option>
+              <optgroup label="Graduation">
+                <option value="BTech">BTech</option>
+                <option value="BCOM">BCOM</option>
+                <option value="BSC">BSC</option>
+                <option value="BCA">BCA</option>
+              </optgroup>
+              <optgroup label="Post-Graduation">
+                <option value="MTech">MTech</option>
+                <option value="MSC">MSC</option>
+                <option value="BCA">BCA</option>
+              </optgroup>
+              </td>
+          </select>
+        </tr>
+
+        <tr>
+          <td align="right">Address:</td>
+          <td>
+            <textarea name="address" cols="30" rows="10"></textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="right">Picture:</td>
+          <td>
+            <input type="file" name="pic">
+          </td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td>
+            <input type="submit" value="Register" />
+            <input type="reset" value="Reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

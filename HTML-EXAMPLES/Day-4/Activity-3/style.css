@@ -1,0 +1,82 @@
+body{
+  margin: 4%;
+  background-color: whitesmoke;
+}
+
+h1{
+  font-size: 50px;
+  color: darkblue;
+  margin-bottom: 0;
+}
+
+p{
+  color: darkblue;
+  font-size: 15px;
+}
+
+header{
+  background: whitesmoke;
+  padding: 10px;
+  text-align: center;
+}
+
+footer{
+  background: whitesmoke;
+  clear: both;
+}
+
+nav{
+  font-variant: small-caps;
+  font-size: 150%;
+  font-family: Arial,'Times New Roman', serif;
+}
+
+nav a{
+  width: 22%;
+  display: inline-block;
+  background: whitesmoke;
+  text-align: center;
+}
+
+h2{
+  color: #ffffff;
+  background-color: #00b7ea;
+}
+
+section{
+  background-image: url(wandering.jpg);
+  padding: 30px;
+  height: 600px;
+  border-radius: 5px;
+}
+
+.half{
+  background-color: black;
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 50%;
+}
+
+
+.sec, .sec1{
+  color: yellow;
+}
+
+.sec{
+  font-size: 30px;
+  
+}
+
+footer{
+  text-align: center;
+}
+
+button{
+  color: black;
+  background-color: yellow;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  border: none;
+}
